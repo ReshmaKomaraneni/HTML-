@@ -1,0 +1,151 @@
+ <!--HTML TABLE-->
+       <!DOCTYPE html>
+              <html>
+                  <head>
+                      <title>MY TABLE</title>
+					<style>
+					table,th,td{
+					 border: 2px solid blue;
+					background-color: green;
+					border-color: #96D4D4;
+					}
+<!--Cell Padding-->
+				th,td{
+				    padding: 20px;
+					}
+				th,td{
+				    padding-top: 10px;
+					padding-bottom: 20px;
+					padding-left: 30px;
+					padding-right: 40px;
+					}
+<!--Cell Spacing-->
+				table{
+				    border-spacing: 50px;
+					}
+<!--Zebra stripes-->
+			             tr:nth-child(even){
+			             background-color: #D6EEEE;
+				         }
+<!--Vertical Zebra stripes-->
+					th:nth-child(even),td:nth-child(even){
+					background-color: #96D4D4;
+					}
+<!--Combination of vertical and horizontal stripes-->
+					tr:nth-child(even){
+					background-color: rgba(255,99,71,0.5)
+					}
+					th:nth-child(even) ,td:nth-child(even){
+					background-color: rgba(255,99,71,0.5)
+					}
+<!--Horizontal Dividers-->
+					tr{
+					border-bottom: 1px solid #ddd;
+					}
+<!--Hoverable Table-->
+					tr:hover {background-color: #D6EEEE;}
+					 
+					</style>
+					
+                 <body>
+	                 <h1>TABLE AND CONTENTS</h1>
+          <table style= "border-radius: 10px;">
+		  
+<!--Table colgroup Including Multiple colgroup-->
+		  <colgroup>
+		  <col span="1" style="background-color: #D6EEEE">
+		  <col span="2" style="background-color: #96D4D4">
+<!--Table Hide columns(we use "visibility: collapse" property to hide the columns)-->
+		  <col span="2" style="visibility: collapse">
+		  
+		  </colgroup>
+    <tr>
+      <th colspan="2">NAME</th>
+	  <th>E-Mail</th>
+	  <th>Mobile No</th>
+	  <th>Country</th>
+	 </tr>
+           <tr>
+               <td>Radha</td>
+			   <td>radha@gmail.com</td>
+			   <td>9440656775</td>
+			   <td>India</td>
+			 </tr>
+			    <td>Seshubabu</td>
+			    <td>seshubabu@gmail.com</td>
+			    <td>7569497282</td>
+			    <td>UK</td>
+			<tr>
+				  <td>Neeraja</td>
+				  <td>neeraja@gmail.com</td>
+				  <td>9394867271</td>
+				  <td>India</td>
+			   </tr>
+			   <tr>
+			      <td>Sai</td>
+				  <td>sai@gmail.com</td>
+				  <td>6304565755</td>
+				  <td>UK</td>
+				</tr>
+			      
+			</table>
+			<hr>
+			
+
+	<!-- HTML Tables Collapse(Collapse is used to remove double borders)-->		 
+<section div class="collapse">		 
+			 
+			  <table style="border-collapse: collapse ;">
+			  
+    <tr>
+      <th rowspan="2">NAME</th>
+	  <th>E-Mail</th>
+	  <th>Mobile No</th>
+	  <th>Country</th>
+	 </tr>
+           <tr>
+               <td>Radha</td>
+			   <td>radha@gmail.com</td>
+			   <td>9440656775</td>
+			   <td>India</td>
+			 </tr>
+			    <td>Seshubabu</td>
+			    <td>seshubabu@gmail.com</td>
+			    <td>7569497282</td>
+			    <td>UK</td>
+			<tr>
+			    <td>Radhika</td>
+			    <td>radhika@gmail.com</td>
+			    <td>9955667788</td>
+			    <td>India</td>
+				</tr>
+			<tr>
+			    <td>Nagamani</td>
+			    <td>nagamani@gmail.com</td>
+			    <td>9951905941</td>
+				<td>UK</td>
+			</tr>
+			    
+			   
+			</table>
+			<hr>
+			
+			
+			</section>
+			 
+    
+			
+		
+			
+		
+			
+
+
+			
+			
+	</body>
+	</head>
+	</html>
+				    
+			   
+	  

@@ -1,0 +1,55 @@
+.h2
+{
+  text-align: center;
+  border: 2px solid blue;
+  background-color: pink;
+}
+#para
+{
+  background-color: MediumSeaGreen;
+  border: 2px solid black;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-shadow: 3px 3px 5px blue;
+  text-transform: capitalize;
+}
+pre
+{
+	background-image: url(../leaf.jpg);  
+	background-repeat: no-repeat;
+	font-family: verdena;
+	color: black;
+	border-style: double ;
+	margin-right: 900px;
+	border-style: inset;
+}	
+ body
+ {
+    background-color: orange;
+ }
+ .para2
+ {
+	color: red;
+	margin-left: 100px;
+	border-style: dotted;
+	border: 20px solid green;
+	text-decoration-line:  overline underline;
+	text-decoration-color: purple;
+	letter-spacing: 2px;
+ }	
+ a
+ {
+    color: blue;	
+ }
+ 
+
+	 
+                                                                  
+ 
+ 
+ 
+ 
+
+	
+	

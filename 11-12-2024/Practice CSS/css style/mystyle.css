@@ -1,0 +1,48 @@
+   .para1
+   {
+    color: red;
+	background-color: MediumSeaGreen;
+	border: 2px solid blue;
+	padding-bottom: 70px;
+	padding-right: 100px;
+	border-style: dashed;
+	margin-bottom: 50px;
+   }
+    .para2
+	{
+	   background-color: yellow;
+	   background-image: url(../pbi.jpg); 
+	   padding-top: 50px;
+	   padding-left: 70px;
+	   border-style: solid;
+	   margin-left: 50px;
+    }
+	.pre
+	{
+	   background-image: url(../tree.jpg);
+	   background-repeat: no-repeat;
+	   background-position: left top;
+	   background-attachment: scroll;
+	   margin-left: 100px;
+       border-style: double;
+       padding-left: 50px;	   
+	}  
+	#borders
+	{
+		 border-style: dotted;
+		 border-width: 2px;
+		 margin: inherit;
+	}
+ 	.text
+	{
+		color: blue;
+		text-align: rightwards;
+		
+	}	
+	
+	
+	
+	
+	   
+	
+   
